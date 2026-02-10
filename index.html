@@ -7,12 +7,14 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  
+<!-- ================= HEADER / NAVBAR ================= -->
 <header class="navbar">
   <div class="logo">
     <img src="assets/jss-logo.png" alt="JSS Integrated Services Logo">
     <span>JSS Integrated Services</span>
   </div>
+  
   <nav>
     <a href="#services">Services</a>
     <a href="#why-us">Why Us</a>
@@ -20,16 +22,18 @@
   </nav>
 </header>
 
+<!-- ================= HERO SECTION ================= -->
 <section class="hero">
   <h1>One Roof. All Solutions</h1>
-  <p>Your trusted consultancy for Study, Work, Travel & Visa Services worldwide</p>
-  <a href="#contact" class="btn">Get Paid Consultation</a>
+  <p>Your trusted consultancy for Study, Work, Tourist & Travel Services worldwide</p>
+  <a href="#contact" class="btn">Book Paid Consultation</a>
 </section>
 
+<!-- ================= SERVICES ================= -->
 <section id="services" class="services">
   <h2>Our Paid Services</h2>
-  <div class="service-grid">
 
+  <div class="service-grid">
     <div class="card">
       <h3>🎓 Study Abroad Consultancy</h3>
       <p>University selection, admissions, SOP, documentation, and student visa guidance.</p>
@@ -37,32 +41,32 @@
 
     <div class="card">
       <h3>💼 Work Visa & Job Support</h3>
-      <p>Work visa consultation, eligibility checks, job assistance, and documentation.</p>
+      <p>Eligibility checks, documentation support, and work visa consultancy.</p>
     </div>
 
     <div class="card">
       <h3>🌍 Tourist Visa Services</h3>
-      <p>Tourist visas, itinerary planning, travel insurance and appointment scheduling.</p>
+      <p>Tourist visa assistance, travel planning, and appointment scheduling.</p>
     </div>
 
     <div class="card">
       <h3>✈️ Travel Services</h3>
-      <p>Flight booking assistance, travel planning, accommodation and local guidance.</p>
+      <p>Flight booking support, accommodation guidance, and itinerary planning.</p>
     </div>
 
     <div class="card">
       <h3>🛂 Visa Guidance</h3>
-      <p>Step-by-step paid visa consultancy for all countries with expert review.</p>
+      <p>Step-by-step professional visa guidance for all countries.</p>
     </div>
 
     <div class="card">
       <h3>🧾 Support Services</h3>
-      <p>Documentation, translation, attestation, biometrics & application tracking.</p>
+      <p>Documentation, attestation, translation, biometrics & application tracking.</p>
     </div>
-
   </div>
 </section>
 
+<!-- ================= WHY US ================= -->
 <section id="why-us" class="why-us">
   <h2>Why Choose JSS Integrated Services?</h2>
   <ul>
@@ -73,26 +77,50 @@
   </ul>
 </section>
 
+<!-- ================= CONTACT / BOOKING ================= -->
 <section id="contact" class="contact">
   <h2>Book a Paid Consultation</h2>
-  <p>Email or WhatsApp us to get started</p>
+  <p>Fill out the form below and our team will contact you shortly.</p>
+
+  <form class="booking-form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="tel" placeholder="Phone / WhatsApp Number" required>
+
+    <select required>
+      <option value="">Select Service</option>
+      <option>Study Abroad</option>
+      <option>Work Visa</option>
+      <option>Tourist Visa</option>
+      <option>Travel Services</option>
+      <option>Visa Guidance</option>
+      <option>Other Support Services</option>
+    </select>
+
+    <textarea rows="4" placeholder="Describe your requirement"></textarea>
+
+    <button type="submit">Submit Booking Request</button>
+  </form>
+
   <div class="contact-box">
     <p>📧 Email: <strong>jiservices.official@gmail.com</strong></p>
-    <p>📞 Phone / WhatsApp: <strong>+91-7304381129</strong></p>
+    <p>📞 WhatsApp: <strong>+91-7304381129</strong></p>
   </div>
 </section>
 
+<!-- ================= FOOTER ================= -->
 <footer>
   <p>© 2026 JSS Integrated Services. All Rights Reserved.</p>
 </footer>
 
-<script src="js/main.js"></script>
-  <a href="https://wa.me/917304381129" 
-   class="whatsapp-float" 
+<!-- ================= WHATSAPP FLOAT BUTTON ================= -->
+<a href="https://wa.me/917304381129"
+   class="whatsapp-float"
    target="_blank"
    title="Chat with us on WhatsApp">
-   💬
+  💬
 </a>
 
+<script src="js/main.js"></script>
 </body>
 </html>
